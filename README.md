@@ -14,7 +14,7 @@ Venti is ....
 
 # Contribution Instructions
 
-This is an open-source plugin and we welcome contributions. Because we use this plugin for producing publicly available datasets, there is some additional tests and requirements for any new features to be integrated.
+This is an open-source toolbox and we welcome contributions.
 
 # Citing this work #
 
