@@ -3,9 +3,8 @@
 Venti is ....
 
 
-# Running Locally in Conda
 
-## Installation
+# Installation
 
 1. Clone this repo `git clone https://github.com/mgovorcin/Venti.git`
 2. Navigate with your terminal to the repo.
