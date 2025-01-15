@@ -173,6 +173,7 @@ class GNSS():
 
     def load(self, name):
         self.pickle = self.output_dir / (name + '.pkl')
+        print(self.pickle)
         with open(str(self.pickle), 'rb') as inp:
             gnss = pickle.load(inp)
         return gnss
@@ -626,6 +627,7 @@ class UNR(GNSS):
         site_steps = self.steps[self.steps.site == site]
         steps = site_steps.date.apply(str2datetime).values
         steps = steps.astype('datetime64[s]')
+        
         # Avoid duplicates in steps
         steps = np.unique(steps)
 

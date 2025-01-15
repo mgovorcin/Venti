@@ -19,7 +19,7 @@ def calculate_temporal_variability(dates, data, time_increment, steps=None):
             np.timedelta64(365, 'D') * (time_increment / 2)
         if ~moving_window.any():
             break
-        if np.timedelta64((np.max(dates) - dates[moving_window][0]), 'D') > np.timedelta64(365, 'D') * (time_increment1):
+        if np.timedelta64((np.max(dates) - dates[moving_window][0]), 'D') > np.timedelta64(365, 'D') * (time_increment):
             moving_dates.append(dates[moving_window][0])
         date1 = dates[moving_window][0]
 
