@@ -16,6 +16,6 @@ This is an open-source toolbox and we welcome contributions.
 
 # Citing this work #
 
-Govorcin, M., Bekaert, D., Hamlington, B., Sangha, S. Sweet, W. (2025), Variable vertical land motion for sea level rise projections, _Science Advnaces_, (in press)
+Govorcin, M., Bekaert, D., Hamlington, B., Sangha, S. Sweet, W. (2025), Variable vertical land motion for sea level rise projections, _Science Advances_, (in press)
 
 In addition to the above, we recommend that you cite the original publications that describe the algorithms used in your specific analysis. 

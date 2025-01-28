@@ -5,7 +5,7 @@ from skimage.filters import gaussian
 from tqdm import tqdm
 
 from .utils import get_moving_windows, fill_gaps, extend_window, get_win_lalo_grid, degrees_to_meters
-from .solvers import fit_plane, get_distance_kernel, hamming2d_filter
+from venti.solvers.solvers import fit_plane, get_distance_kernel, hamming2d_filter
 
 def insar_referencing(insar_data:np.ndarray,
                        insar_std:np.ndarray,
